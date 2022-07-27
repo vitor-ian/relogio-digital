@@ -57,7 +57,7 @@ function selectTheme(){
     var callendar = document.getElementById("callendar");
 
     if(tema == "tema01"){
-        bodyBackground.style.backgroundImage = 'url("/assets/img/theme-01.jpeg")';
+        bodyBackground.style.backgroundImage = 'url("./assets/img/theme-01.jpeg")';
         
         date.style.fontSize = "5rem";
         date.style.color = "#fff";
@@ -71,7 +71,7 @@ function selectTheme(){
     }
 
     else if(tema == "tema02"){
-        bodyBackground.style.backgroundImage = 'url("/assets/img/theme-02.jpeg")';
+        bodyBackground.style.backgroundImage = 'url("./assets/img/theme-02.jpeg")';
 
         date.style.fontSize = "6rem";
         date.style.color = "#28B91C";
@@ -85,7 +85,7 @@ function selectTheme(){
     }
 
     else if(tema == "tema03"){
-        bodyBackground.style.backgroundImage = 'url("/assets/img/theme-03.jpeg")';
+        bodyBackground.style.backgroundImage = 'url("./assets/img/theme-03.jpeg")';
 
         date.style.fontSize = "6rem";
         date.style.color = "#fff";
@@ -99,7 +99,7 @@ function selectTheme(){
     }
 
     else if(tema == "tema04"){
-        bodyBackground.style.backgroundImage = 'url("/assets/img/theme-04.png")';
+        bodyBackground.style.backgroundImage = 'url("./assets/img/theme-04.png")';
 
         date.style.fontSize = "8rem";
         date.style.color = "#fff";
