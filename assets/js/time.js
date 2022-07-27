@@ -17,8 +17,9 @@ function relogio(){
     }
 
     // Data
-    var dia = data.getDay();
+    var dia = data.getDate();
     var mes = data.getMonth();
+    mes = mes + 1;
     var ano = data.getFullYear();
 
     if(dia<10){
